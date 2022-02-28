@@ -36,7 +36,6 @@
 ## Introduction
 
 <details> 
-
 <summary><strong>General knowledge & credits</strong></summary>
 
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
@@ -61,7 +60,6 @@
 | Camera    | 720p Camera                       |                                                              |
 | Wifi & BT | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
 | Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
-
 </details>  
 
 <details>

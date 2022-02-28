@@ -35,7 +35,7 @@
 
 ## Introduction
 
-<details> 
+<!-- <details>  -->
 
 <summary><strong>General knowledge & credits</strong></summary>
 

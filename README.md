@@ -35,7 +35,8 @@
 
 ## Introduction
 
-<details>
+<details> 
+
 <summary><strong>General knowledge & credits</strong></summary>
   
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)

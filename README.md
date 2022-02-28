@@ -1,6 +1,6 @@
 # T480-OpenCore-Hackintosh
 
-<p align="center">
+<!-- <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
   <img src="https://img.shields.io/badge/macOS-Monterey_v12.2-red.svg"/> </a>
 <a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355">
@@ -31,13 +31,12 @@
 <p align="center">
 <a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
   <img src="./Other/README Resources/T480.png" alt="Thinkpad T480" width="480">
-</p>
+</p> -->
 
 ## Introduction
 
 <details>
-<summary><strong>Hardware</strong></summary>
-
+<summary><strong>General knowledge & credits</strong></summary>
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)

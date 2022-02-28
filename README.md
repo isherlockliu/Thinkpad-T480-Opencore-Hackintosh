@@ -14,6 +14,7 @@
 </p>
 
 
+
 <p align="center">
 <a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
    <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
@@ -26,62 +27,63 @@
 </p>
 
 
+
 <p align="center">
 <a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
   <img src="./Other/README Resources/T480.png" alt="Thinkpad T480" width="480"> </a>
 </p>
 
 
-# Credits
 
-- [@benbender](https://github.com/benbender)
-- [@EETagent](https://github.com/EETagent) 
-- [@tylernguyen](https://github.com/tylernguyen) 
- 
-Much of this repo comes from your research and code. Thank you!
- 
+# DISCLAIMER
+
+**Read the entire README and Dortania guides before you start. I am not responsible for any damage. When you encounter bug or want to improve this repo, consider opening issue or pull request. If you find this bootloader configuration useful, consider giving it a star to make it more visible.**
+
+
+
 # Introduction
 
 <details>
 <summary><strong>General knowledge & credits</strong></summary>
-  
-- To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 
+
+- To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
-- [CREDITS](CREDITS.md) file
-  
 </details> 
 
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
 
-| Category  | Component                         | Note                                                         |
-| --------- | --------------------------------- | ------------------------------------------------------------ |
-| CPU       | Intel Core i7-8550U               | 20L5A01RHH                                                   |
-| GPU       | Intel UHD 620                     | Disable MX150                                                |
-| SSD       | LITEON T11 Plus 512               |                                                              |
-| Memory    | 16GB DDR4 2400Mhz                 |                                                              |
-| Battery   | Dual battery                      |                                                              |
-| Camera    | 720p Camera                       |                                                              |
-| Wifi & BT | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
-| Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
-</details>  
+
+| Category   | Component                         | Note                                                         |
+| ---------- | --------------------------------- | ------------------------------------------------------------ |
+| CPU        | Intel Core i7-8550U               | 20L5A01RHH                                                   |
+| GPU        | Intel UHD 620                     | Disable MX150                                                |
+| SSD        | LITEON T11 Plus 512               |                                                              |
+| Memory     | 16GB DDR4 2400Mhz                 |                                                              |
+| Battery    | Dual battery                      |                                                              |
+| Camera     | 720p Camera                       |                                                              |
+| Wifi & BT  | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
+| Input      | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
+| </details> |                                   |                                                              |
 
 <details>
 <summary><strong>Main software</strong></summary>
 <br>
 
+
 | Component      | Version        |
 | -------------- | -------------- |
 | macOS Monterey | 12.2.1 (21D62) |
 | OpenCore       | 0.7.8          |
-</details>
+| </details>     |                |
 
 <details>
 <summary><strong>Kernel extensions</strong></summary>
 <br>
+
 
 | Kext                   | Version  |
 | :--------------------- | -------- |
@@ -103,10 +105,11 @@ Much of this repo comes from your research and code. Thank you!
 | YogaSMC                | 1.5.1    |
 
 </details>
-  
+
 <details>
 <summary><strong>UEFI drivers</strong></summary>
 <br>
+
 
 |     Driver      | Version           |
 | :-------------: | ----------------- |
@@ -114,7 +117,7 @@ Much of this repo comes from your research and code. Thank you!
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenCanopy.efi  | OpenCorePkg 0.7.8 |
 | OpenRuntime.efi | OpenCorePkg 0.7.8 |
-</details> 
+|   </details>    |                   |
 
 
 <details>
@@ -126,9 +129,11 @@ Much of this repo comes from your research and code. Thank you!
 </details> 
 
 
+
 # Before installation
 
 <details>  
+
 
 <summary><strong>UEFI settings</strong></summary>
 <br>
@@ -160,6 +165,7 @@ Much of this repo comes from your research and code. Thank you!
 
 <details>
 
+
 <summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
 
@@ -178,6 +184,7 @@ etc.
 # Post-Install
 
 <details>  
+
 
 <summary><strong>Colour banding</strong></summary>
 <br>
@@ -200,18 +207,18 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 <details>  
 
+
 <summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
 [GenSMBIOS](https://github.com/corpnewt/GenSMBIOS)
-
-- MacBookPro14,1
 
 - MacBookPro15,2
 
 </details>  
 
 <details>  
+
 
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
@@ -222,6 +229,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 <details>  
 
+
 <summary><strong>VoltageShift undervolt</strong></summary>
 <br>
 
@@ -230,11 +238,13 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 ```diff
 ! If you want to use this feature, enable it in config.plist
 ```
+
 </details>  
 
 # Status
 
 <details>  
+
 
 <summary><strong>What's working ✅</strong></summary>
 
@@ -288,6 +298,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 <details>  
 
+
 <summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
@@ -301,6 +312,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
 
+
 <img align="left" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="220">
 
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
@@ -313,3 +325,24 @@ https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 [ThinkPad discord](discord.gg/Ybdz7AS)
 
 </details>  
+
+
+
+# CREDITS
+
+- Orginal T480 OpenCore repo from [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) 
+- Further improve OpenCore repo from [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) 
+- Lots of SSDT patches from [benbender](https://github.com/benbender)
+- The guys from [Acidanthera](https://github.com/acidanthera) that make this possible
+- [1Revenger1](https://github.com/1Revenger1) and [leo-labs](https://github.com/leo-labs) for [VoodooRMI](https://github.com/VoodooSMBus/VoodooRMI) and [VoodooSMBus](https://github.com/VoodooSMBus/VoodooSMBus)
+- [al3xtjames](https://github.com/al3xtjames) for [NoTouchID](https://github.com/al3xtjames/NoTouchID)
+- [Apple](http://apple.com) for macOS and HfsPlus.efi
+- [corpnewt](https://github.com/corpnewt) for [USBMap](https://github.com/corpnewt/USBMap) and [CPUFriendDataProvider](https://github.com/corpnewt/CPUFriendFriend)
+- [headkaze](https://github.com/headkaze) for [Hackintool](https://github.com/headkaze/Hackintool)
+- [hieplpvip](https://github.com/hieplpvip) for [AppleBacklightSmoother](https://github.com/hieplpvip/AppleBacklightSmoother)
+- [jwise](https://github.com/jwise) for [HoRNDIS](https://github.com/jwise/HoRNDIS)
+- [Mieze](https://github.com/Mieze) for [IntelMausiEthernet](https://github.com/Mieze/IntelMausiEthernet)
+- [MSzturc](https://github.com/MSzturc) for [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant)
+- [OpenIntelWireless](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) for [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](hhttps://github.com/OpenIntelWireless/HeliPort)
+- [sicreative](https://github.com/sicreative) for [VoltageShift](https://github.com/sicreative/VoltageShift)
+- [zhen-zen](https://github.com/zhen-zen) for [YogaSMC](

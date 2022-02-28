@@ -16,6 +16,7 @@
 </p>
 
 
+
 <p align="center">
 <a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
    <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
@@ -29,10 +30,12 @@
 
 
 
+
 <p align="center">
 <a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
   <img src="./Other/README Resources/T480.jpg" alt="Thinkpad T480" width="400">
 </p>
+
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
@@ -41,6 +44,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 ## Introduction
 
 <details> 
+
 
 <summary><strong>General knowledge & credits</strong></summary>
 
@@ -55,6 +59,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
+
 
 | Category  | Component                         | Note                                                         |
 | --------- | --------------------------------- | ------------------------------------------------------------ |
@@ -73,6 +78,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>Main software</strong></summary>
 <br>
 
+
 | Component      | Version        |
 | -------------- | -------------- |
 | macOS Monterey | 12.2.1 (21D62) |
@@ -83,6 +89,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <details>
 <summary><strong>Kernel extensions</strong></summary>
 <br>
+
 
 | Kext                   | Version  |
 | :--------------------- | -------- |
@@ -104,7 +111,9 @@ If you find this bootloader configuration useful, consider giving it a star to m
 | YogaSMC                | 1.5.1    |
 
 </details>
+
 <details>
+
 
 <summary><strong>UEFI drivers</strong></summary>
 <br>
@@ -130,6 +139,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 ## Before installation
 
 <details>  
+
 
 <summary><strong>UEFI settings</strong></summary>
 <br>
@@ -161,6 +171,7 @@ If you find this bootloader configuration useful, consider giving it a star to m
 
 <details>
 
+
 <summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
 
@@ -179,6 +190,7 @@ etc.
 ## Post-Install
 
 <details>  
+
 
 <summary><strong>Colour banding</strong></summary>
 <br>
@@ -201,6 +213,7 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 <details>  
 
+
 <summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
@@ -214,6 +227,7 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 <details>  
 
+
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
 
@@ -223,6 +237,7 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 <details>  
 
+
 <summary><strong>VoltageShift undervolt</strong></summary>
 <br>
 
@@ -231,11 +246,13 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 ```diff
 ! If you want to use this feature, enable it in config.plist
 ```
+
 </details>  
 
 ## Status
 
 <details>  
+
 
 <summary><strong>What's working ✅</strong></summary>
 
@@ -289,6 +306,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 <details>  
 
+
 <summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
@@ -301,6 +319,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 <details>  
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
+
 
 <img align="left" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="220">
 

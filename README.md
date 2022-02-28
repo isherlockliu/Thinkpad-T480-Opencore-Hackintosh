@@ -1,7 +1,16 @@
 # T480-OpenCore-Hackintosh
 
-<!-- <img align="Center" src="./Others/README Resources/T480.jpg" alt="T480 macOS" width="430"> -->
 <p align="center">
+<a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
+   <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
+<a href="https://damnthattelevision.com/Contact">
+   <img src="https://img.shields.io/badge/%40-Contact-FFF27D"> </a>
+<a href="https://damnthattelevision.com/Support">
+   <img src="https://img.shields.io/badge/%24-Support-ff69b4.svg"> </a>
+<a href="">
+   <img src="https://img.shields.io/badge/Contributions-Welcome-orange.svg"> </a>
+</p>
+
 <a href="https://tylernguyen.github.io/x1c6-hackintosh/">
    <img src="./Others/README Resources/T480.jpg" alt="T480 macOS" width="430"> </a>
 </p>

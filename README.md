@@ -110,14 +110,15 @@
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenCanopy.efi  | OpenCorePkg 0.7.8 |
 | OpenRuntime.efi | OpenCorePkg 0.7.8 |
-|   </details>    |                   |
+</details> 
+
 
 <details>
-<summary><strong>Neofetch screenshots</strong></summary>
-<br>
-<p float="center">
-<img src="./Other/README Resources/Neofetch Monterey.png" alt="Neofetch Monterey" width="680">
-</p>
+    <summary><strong>Neofetch screenshots</strong></summary>
+    <br>
+    <p float="left">
+        <img src="./Other/README Resources/Neofetch Monterey.png" alt="Neofetch Monterey" width="660">
+    </p>
 </details> 
 
 

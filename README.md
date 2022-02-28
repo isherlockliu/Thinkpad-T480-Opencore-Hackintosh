@@ -38,7 +38,7 @@
 
 - [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) for your hardwork. Much of this repo comes from your research and code. Thank you!
 
-## Introduction
+# Introduction
 
 <details>
 <summary><strong>General knowledge & credits</strong></summary>
@@ -124,7 +124,7 @@
 </details> 
 
 
-## Before installation
+# Before installation
 
 <details>  
 
@@ -173,7 +173,7 @@ etc.
 
 </details>
 
-## Post-Install
+# Post-Install
 
 <details>  
 
@@ -230,7 +230,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 ```
 </details>  
 
-## Status
+# Status
 
 <details>  
 
@@ -293,7 +293,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 </details>  
 
-## UEFI modding
+# UEFI modding
 
 <details>  
 <summary><strong>CFG Lock | Advanced menu</strong></summary>

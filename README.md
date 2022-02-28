@@ -37,8 +37,8 @@
 - [@benbender](https://github.com/benbender)
 - [@EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) 
 - [@tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) 
-** Much of this repo comes from your research and code. Thank you! **
-<summary><strong>Much of this repo comes from your research and code. Thank you!</strong></summary>
+  Much of this repo comes from your research and code. Thank you!
+ 
 # Introduction
 
 <details>

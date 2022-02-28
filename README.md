@@ -99,8 +99,8 @@
 | YogaSMC                | 1.5.1    |
 
 </details>
+  
 <details>
-
 <summary><strong>UEFI drivers</strong></summary>
 <br>
 

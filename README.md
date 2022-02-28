@@ -1,5 +1,3 @@
-# T480-OpenCore-Hackintosh
-
 <p align="center">
 <a href="https://www.apple.com/macos/monterey/">
   <img src="https://img.shields.io/badge/macOS-Monterey_v12.2-red.svg"/> </a>

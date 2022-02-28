@@ -30,7 +30,7 @@
 
 <p align="center">
 <a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
-  <img src="./Other/README Resources/T480.png" alt="Thinkpad T480" width="300">
+  <img src="./Other/README Resources/T480.png" alt="Thinkpad T480" width="480">
 </p>
 
 ## Introduction

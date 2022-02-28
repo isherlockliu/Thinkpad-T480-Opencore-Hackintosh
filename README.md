@@ -3,7 +3,7 @@
 <!-- <img align="Center" src="./Others/README Resources/T480.jpg" alt="T480 macOS" width="430"> -->
 <p align="center">
 <a href="https://tylernguyen.github.io/x1c6-hackintosh/">
-   <img src="https://img.shields.io/badge/-Documentation-E95678?style=for-the-badge"> </a>
+   <img src="./Others/README Resources/T480.jpg"> </a>
 </p>
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)

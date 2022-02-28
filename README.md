@@ -307,6 +307,8 @@ https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 
 </details>  
 
+
+
 # Credits
 
 - [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) for your hardwork. Much of this repo comes from your research and code. Thank you!

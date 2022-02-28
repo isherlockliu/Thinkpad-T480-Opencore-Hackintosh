@@ -37,9 +37,9 @@
 
 # DISCLAIMER
 
-**Read the entire README and Dortania guides before you start. **
+**Read the entire README and Dortania guides before you start.**
 
-**I am not responsible for any damage. **
+**I am not responsible for any damage.**
 
 **When you encounter bug or want to improve this repo, consider opening issue or pull request. If you find this bootloader configuration useful, consider giving it a star to make it more visible.**
 

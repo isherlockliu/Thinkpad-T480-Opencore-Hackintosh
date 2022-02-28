@@ -37,9 +37,13 @@
 
 <details>
 <summary><strong>General knowledge & credits</strong></summary>
+  
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
+
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
+
 - [CREDITS](CREDITS.md) file
+  
 </details> 
 
 <details>

@@ -39,7 +39,7 @@
 
 **Read the entire README and Dortania guides before you start.**
 
-**I am not responsible for any damage.**
+**I am not responsible for any damage. **
 
 **When you encounter bug or want to improve this repo, consider opening issue or pull request. If you find this bootloader configuration useful, consider giving it a star to make it more visible.**
 
@@ -61,17 +61,19 @@
 <br>
 
 
-| Category   | Component                         | Note                                                         |
-| ---------- | --------------------------------- | ------------------------------------------------------------ |
-| CPU        | Intel Core i7-8550U               | 20L5A01RHH                                                   |
-| GPU        | Intel UHD 620                     | Disable MX150                                                |
-| SSD        | LITEON T11 Plus 512               |                                                              |
-| Memory     | 16GB DDR4 2400Mhz                 |                                                              |
-| Battery    | Dual battery                      |                                                              |
-| Camera     | 720p Camera                       |                                                              |
-| Wifi & BT  | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
-| Input      | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
-| </details> |                                   |                                                              |
+| Category  | Component                         | Note                                                         |
+| --------- | --------------------------------- | ------------------------------------------------------------ |
+| CPU       | Intel Core i7-8550U               | 20L5A01RHH                                                   |
+| GPU       | Intel UHD 620                     | Disable MX150                                                |
+| SSD       | LITEON T11 Plus 512               |                                                              |
+| Memory    | 16GB DDR4 2400Mhz                 |                                                              |
+| Battery   | Dual battery                      |                                                              |
+| Camera    | 720p Camera                       |                                                              |
+| Wifi & BT | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
+| Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
+| Screen    | LG 2k 2560*1440                   |                                                              |
+
+</details>
 
 <details>
 <summary><strong>Main software</strong></summary>
@@ -82,7 +84,8 @@
 | -------------- | -------------- |
 | macOS Monterey | 12.2.1 (21D62) |
 | OpenCore       | 0.7.8          |
-| </details>     |                |
+
+</details>
 
 <details>
 <summary><strong>Kernel extensions</strong></summary>

@@ -1,24 +1,26 @@
 # T480-OpenCore-Hackintosh
 
 <p align="center">
-<a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
-   <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
-<a href="https://damnthattelevision.com/Contact">
-   <img src="https://img.shields.io/badge/%40-Contact-FFF27D"> </a>
-<a href="https://damnthattelevision.com/Support">
-   <img src="https://img.shields.io/badge/%24-Support-ff69b4.svg"> </a>
-<a href="">
-   <img src="https://img.shields.io/badge/Contributions-Welcome-orange.svg"> </a>
+<a href="https://www.apple.com/macos/big-sur/">
+  <img src="https://img.shields.io/badge/macOS-Monterey_v12.2-red.svg"/> </a>
+<a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-x-series-laptops/thinkpad-x1-carbon-6th-gen-type-20kh-20kg/downloads/driver-list/component?name=BIOS%2FUEFI">
+  <img src="https://img.shields.io/badge/BIOS-Modded_1.50-blue"/> </a>
+<a href="https://github.com/tylernguyen/x1c6-hackintosh/blob/master/docs/references/x1c6-Platform_Specifications.pdf">
+  <img src="https://img.shields.io/badge/Model-20KH*-9cf"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg">
+  <img src="https://img.shields.io/badge/OpenCore-0.7.8-12AED6"/> </a>
+<a href="https://github.com/tylernguyen/x1c6-hackintosh/issues"> 
+  <img src="https://img.shields.io/github/issues/tylernguyen/x1c6-hackintosh"/> </a>
+<a href="https://github.com/tylernguyen/x1c6-hackintosh/commits/master"> 
+  <img src="https://img.shields.io/github/last-commit/tylernguyen/x1c6-hackintosh"/> </a>
+<a href="https://github.com/tylernguyen/x1c6-hackintosh/issues?q=is%3Aissue+label%3A%22help+wanted%22+is%3Aclosed">
+  <img src="https://img.shields.io/badge/need%20help-2-blue"/> </a>
 </p>
 
 <a href="https://tylernguyen.github.io/x1c6-hackintosh/">
    <img src="./Others/README Resources/T480.jpg" alt="T480 macOS" width="430"> </a>
 </p>
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
-[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
 ## DISCLAIMER
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.

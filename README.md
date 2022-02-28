@@ -5,7 +5,7 @@
 Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will be listed here
 
 
-<img align="Right" src="./Others/README Resources/ThinkPad T480.png" alt="T480 macOS" width="430">
+<img align="Right" src="./Others/README Resources/T480.png" alt="T480 macOS" width="430">
 
 [![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
 [![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)

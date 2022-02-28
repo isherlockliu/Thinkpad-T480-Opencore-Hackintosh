@@ -1,17 +1,38 @@
 # T480-OpenCore-Hackintosh
 
-**Status: Unmaintained**
+<p align="center">
+<a href="https://www.apple.com/macos/monterey/">
+  <img src="https://img.shields.io/badge/macOS-Monterey_v12.2-red.svg"/> </a>
+<a href="https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355">
+  <img src="https://img.shields.io/badge/BIOS-1.42-blue"/> </a>
+<a href="https://github.com/acidanthera/OpenCorePkg">
+  <img src="https://img.shields.io/badge/OpenCore-0.7.8-12AED6"/> </a>
+<a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/issues"> 
+  <img src="https://img.shields.io/github/issues/isherlockliu/Thinkpad-T480-Hackintosh"/> </a>
+<a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/commits/master"> 
+  <img src="https://img.shields.io/github/last-commit/isherlockliu/Thinkpad-T480-Hackintosh"/> </a>
+<a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/issues?q=is%3Aissue+label%3A%22help+wanted%22+is%3Aclosed">
+  <img src="https://img.shields.io/badge/need%20help-0-blue"/> </a>
+</p>
 
-Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will be listed here
+
+<p align="center">
+<a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
+   <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
+<a href="https://damnthattelevision.com/Contact">
+   <img src="https://img.shields.io/badge/%40-Contact-FFF27D"> </a>
+<a href="https://damnthattelevision.com/Support">
+   <img src="https://img.shields.io/badge/%24-Support-ff69b4.svg"> </a>
+<a href="">
+   <img src="https://img.shields.io/badge/Contributions-Welcome-orange.svg"> </a>
+</p>
 
 
-<img align="right" src="./Other/README_Resources/ThinkPad.gif" alt="T480 macOS" width="430">
 
-[![OpenCore](https://img.shields.io/badge/OpenCore-0.6.9-blue.svg)](https://github.com/acidanthera/OpenCorePkg)
-[![macOS-Previous](https://img.shields.io/badge/macOS-10.14.6-brightgreen.svg)](https://github.com/EETagent/T480-OpenCore-Hackintosh/issues/11)
-[![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
-[![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
-
+<p align="center">
+<a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
+  <img src="./Other/README Resources/T480.jpg" alt="Thinkpad T480" width="400">
+</p>
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
@@ -32,66 +53,55 @@ If you find this bootloader configuration useful, consider giving it a star to m
 </details>  
 
 <details>
-
 <summary><strong>Hardware</strong></summary>
 <br>
 
-
-[![UEFI](https://img.shields.io/badge/UEFI-N24ET61W-lightgrey)](https://pcsupport.lenovo.com/us/en/products/laptops-and-netbooks/thinkpad-t-series-laptops/thinkpad-t480-type-20l5-20l6/downloads/ds502355)
-| Category  | Component                            | Note                                                                                                               |
-| --------- | ------------------------------------ | ------------------------------------------------------------------------------------------------------------------ |
-| CPU       | Intel Core i5-8250U                  | 20L50000MC                                                                                                         |
-| GPU       | Intel UHD 620                        |                                                                                                                    |
-| SSD       | Samsung 970 Evo 512GB                | Replaced cursed PM 981 which stil doesn't work reliably                                                            |
-| Memory    | 12GB DDR4 2400Mhz                    |                                                                                                                    |
-| Battery   | Dual battery                         |                                                                                                                    |
-| Camera    | 720p Camera                          |                                                                                                                    |
-| Wifi & BT | Intel Wireless-AC 8265               | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control, or use Heliport app.                        |
-| Input     | PS2 Keyboard & Synaptics TrackPad    | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
+| Category  | Component                         | Note                                                         |
+| --------- | --------------------------------- | ------------------------------------------------------------ |
+| CPU       | Intel Core i7-8550U               | 20L5A01RHH                                                   |
+| GPU       | Intel UHD 620                     | Disable MX150                                                |
+| SSD       | LITEON T11 Plus 512               |                                                              |
+| Memory    | 16GB DDR4 2400Mhz                 |                                                              |
+| Battery   | Dual battery                      |                                                              |
+| Camera    | 720p Camera                       |                                                              |
+| Wifi & BT | Intel Wireless-AC 8265            | Use AirportItlwm for your macOS version and enjoy native Wi-Fi control |
+| Input     | PS2 Keyboard & Synaptics TrackPad | [YogaSMC](https://github.com/zhen-zen/YogaSMC) for media keys like microphone switch, etc. PrtSc is mapped as F13. |
 
 </details>  
 
 <details>
-
 <summary><strong>Main software</strong></summary>
 <br>
 
 | Component      | Version        |
 | -------------- | -------------- |
-| macOS Catalina | 10.15.7 (19H2) |
-| macOS Big Sur  | 11.2.2 (20D80) |
-| OpenCore       | v0.6.9         |
+| macOS Monterey | 12.2.1 (21D62) |
+| OpenCore       | 0.7.8          |
 
 </details>
 
 <details>
-
 <summary><strong>Kernel extensions</strong></summary>
 <br>
 
-| Kext                   | Version        |
-|:---------------------- | -------------- |
-| AirportItlwm           | 1.3.0          |
-| AppleALC               | 1.6.0          |
-| BrightnessKeys         | 1.0.1          |
-| CPUFriend              | 1.2.3          |
-| CPUFriendDataProvider  | i5-8250U       |
-| HibernationFixup       | 1.4.0          |
-| HoRNDIS                | Disabled, 9.2  |
-| IntelBluetoothFirmware | 1.1.2          |
-| IntelBluetoothInjector | 1.1.2          |
-| IntelMausi             | 1.0.6          |
-| Lilu                   | 1.5.3          |
-| NoTouchID              | 1.0.4          |
-| NVMeFix                | 1.0.7          |
-| RTCMemoryFixup         | 1.0.8          |
-| VirtualSMC             | 1.2.3          |
-| VoltageShift           | Disabled, 1.22 |
-| VoodooPS2Controller    | 2.2.3          |
-| VoodooRMI              | 1.3.3          |
-| VoodooSMBus            | 3.0.0          |
-| WhateverGreen          | 1.4.9          |
-| YogaSMC                | 1.4.3          |
+| Kext                   | Version  |
+| :--------------------- | -------- |
+| AirportItlwm           | 2.1.0    |
+| AppleALC               | 1.6.9    |
+| CPUFriend              | 1.2.4    |
+| CPUFriendDataProvider  | i7-8550U |
+| IntelBluetoothFirmware | 2.1.0    |
+| IntelMausi             | 1.0.7    |
+| Lilu                   | 1.6.0    |
+| NoTouchID              | 1.0.4    |
+| HibernationFixup.kext  | 1.4.5    |
+| VirtualSMC             | 1.2.3    |
+| VoltageShift           | 1.22     |
+| VoodooPS2Controller    | 2.2.7    |
+| VoodooRMI              | 1.3.4    |
+| VoodooSMBus            | 3.0.0    |
+| WhateverGreen          | 1.5.7    |
+| YogaSMC                | 1.5.1    |
 
 </details>
 <details>
@@ -99,22 +109,23 @@ If you find this bootloader configuration useful, consider giving it a star to m
 <summary><strong>UEFI drivers</strong></summary>
 <br>
 
-| Driver          | Version           |
-|:---------------:| ----------------- |
-| AudioDxe.efi    | OpenCorePkg 0.6.9 |
-| HfsPlus.efi     | OcBinaryData      |
-| OpenCanopy.efi  | OpenCorePkg 0.6.9 |
-| OpenRuntime.efi | OpenCorePkg 0.6.9 |
-</details>
+|     Driver      | Version           |
+| :-------------: | ----------------- |
+|  AudioDxe.efi   | OpenCorePkg 0.7.8 |
+|   HfsPlus.efi   | OcBinaryData      |
+| OpenCanopy.efi  | OpenCorePkg 0.7.8 |
+| OpenRuntime.efi | OpenCorePkg 0.7.8 |
+|   </details>    |                   |
 
 <details>
     <summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
-        <img src="./Other/README_Resources/Neofetch-Catalina.png" alt="Neofetch Catalina" width="350">
-        <img src="./Other/README_Resources/Neofetch-BigSur.png" alt="Neofetch Catalina" width="350">
+        <img src="./Other/README Resources/Neofetch-Monterey.png" alt="Neofetch Monterey" width="860">
     </p>
 </details> 
+
+
 
 ## Before installation
 
@@ -159,47 +170,9 @@ Format is lang-COUNTRY:keyboard
 
 - 🇺🇸 | [0] en_US - U.S --> en-US:0 --> 656e2d55 533a30
 
-- 🇨🇿 | [30776] cs - Czech --> cs-CZ:30776 --> 63732d43 5a3a3330 373736
-
-- 🇨🇿 | cs-CZ:0 --> 63732d43 5a3a30
-
 etc.
 
 [AppleKeyboardLayouts.txt](https://github.com/acidanthera/OpenCorePkg/blob/master/Utilities/AppleKeyboardLayouts/AppleKeyboardLayouts.txt)
-
-</details>
-
-<details>
-
-<summary><strong>Secure Boot (Optional)</strong></summary>
-<br>
-
-1. Set Secure Boot to Setup Mode. Secure Boot should be reported as off by UEFI main tab
-2. Create FAT32 formatted USB
-3. Create EFI folder in the root of the newly formatted flash drive and move there content of SecureBoot/KeyTool
-4. Boot flash drive via F12 boot menu
-5. Choose **Edit keys**
-
-
-<img src="./Other/README_Resources/SecureBoot/MainMenu.png" alt="Main menu">
-
-6. Start by **replacing** Signature Database. Select .auth file
-
-
-<img src="./Other/README_Resources/SecureBoot/ManipulateKey.png" alt="Select key to manipulate with">
-<img src="./Other/README_Resources/SecureBoot/SelectAuth.png" alt="Select .auth file">
-
-
-7. Do the same for Key Exchange Keys Database (KEK) and Platform Key (PK) **in this order**
-8. Exit and shutdown your machine
-9. Boot into the UEFI settings and check if Secure Boot is reported as `on`
-10. Boot you favorite OS with Secure Boot enabled
-
-[More detailed information here](https://habr.com/en/post/273497)
-
-```diff
-! Still quite experimental
-```
 
 </details>
 
@@ -260,29 +233,6 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 ```
 </details>  
 
-<details>  
-
-<summary><strong>Android USB Tethering | HoRNDIS</strong></summary>
-<br>
-
-> **Important:** Mac computers can't tether with Android. 
-
-I don't think so Google.
-
-1. Using a USB cable, connect your phone to the other device. A "Connected as a…" notification shows at the top of the screen.
-2. Open your phone's Settings app.
-3. Tap Network & internet ![And then](https://lh3.googleusercontent.com/WD3LKKej34vq3cZXwilgeahIPOiokN2uarmkDxtMqKMFg4SSys8BkOBJbn4_4R930gE=h18 "And then") Hotspot & tethering.
-4. Turn on USB tethering.
-
-You should see new Ethernet connection in the network settings. Works with USB Type C and USB A.
-
-```diff
-! If you want to use this feature, enable it in config.plist
-```
-Problems with recreating new `en` device every time are now solved on latest macOS versions with patched version of this kext. If it does not work for you, revert to official version.
-
-</details>  
-
 ## Status
 
 <details>  
@@ -333,6 +283,8 @@ Problems with recreating new `en` device every time are now solved on latest mac
 
 - [x] DRM `Widevine, validated on Firefox 82. WhateverGreen's DRM is broken on Big Sur`
 
+- [x] Thunderbolt  
+
 </details>  
 
 <details>  
@@ -340,32 +292,17 @@ Problems with recreating new `en` device every time are now solved on latest mac
 <summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
-
-- [ ] PM 981 `Still unstable. Could work for some, not for others.`
-
 - [ ] Sidecar wireless `If you want to use this feature, buy a compatible Broadcom card!`
-
-- [ ] Windows/Linux from OC boot menu `It's best practice to not boot from OC when planning to perform firmware upgrade`
-
-
-</details>  
-
-<details>  
-
-<summary><strong>Untested</strong></summary>
-
-- [ ] Thunderbolt  `No device to test.`
 
 </details>  
 
 ## UEFI modding
 
 <details>  
-
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
 
-<img align="left" src="./Other/README_Resources/SPI_Programmer_CH341a.jpg" alt="SPI_Programmer_CH341a.jpg" width="220">
+<img align="left" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="220">
 
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
 
@@ -377,3 +314,7 @@ https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 [ThinkPad discord](discord.gg/Ybdz7AS)
 
 </details>  
+
+# Credits
+
+- [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) for your hardwork. Much of this repo comes from your research and code. Thank you!

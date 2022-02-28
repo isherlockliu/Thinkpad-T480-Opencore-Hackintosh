@@ -116,7 +116,7 @@
     <summary><strong>Neofetch screenshots</strong></summary>
     <br>
     <p float="left">
-        <img src="./Other/README Resources/Neofetch-Monterey.png" alt="Neofetch Monterey" width="860">
+        <img src="./Other/README Resources/Neofetch-Monterey.png" alt="Neofetch Monterey" width="480">
     </p>
 </details> 
 

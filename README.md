@@ -17,12 +17,13 @@
   <img src="https://img.shields.io/badge/need%20help-2-blue"/> </a>
 </p>
 
+
+<p align="center">
 <a href="https://tylernguyen.github.io/x1c6-hackintosh/">
-   <img src="./Others/README Resources/T480.jpg" alt="T480 macOS" width="430"> </a>
+  <img src="./Others/README Resources/T480.jpg" alt="Thinkpad T480" width="400">
 </p>
 
-
-## DISCLAIMER
+** DISCLAIMER **
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 
 If you find this bootloader configuration useful, consider giving it a star to make it more visible.

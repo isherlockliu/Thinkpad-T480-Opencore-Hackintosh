@@ -36,7 +36,7 @@
 
 # Credits
 
-- [tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) and [EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) for your hardwork. Much of this repo comes from your research and code. Thank you!
+- [@EETagent](https://github.com/EETagent/T480-OpenCore-Hackintosh) and [@tylernguyen](https://github.com/tylernguyen/x1c6-hackintosh) for your hardwork. Much of this repo comes from your research and code. Thank you!
 
 # Introduction
 

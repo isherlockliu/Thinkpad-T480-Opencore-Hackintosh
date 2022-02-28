@@ -12,6 +12,14 @@ Sorry, I no longer use macOS on my T480. If a maintained fork is formed, it will
 [![macOS-Stable](https://img.shields.io/badge/macOS-10.15.7-brightgreen.svg)](https://www.apple.com/macos/catalina/)
 [![macOS-Unstable](https://img.shields.io/badge/macOS-11.2.2-brightgreen.svg)](https://www.apple.com/macos/big-sur)
 
+
+
+
+
+
+
+
+
 **DISCLAIMER:**
 Read the entire README and Dortania guides before you start. I am not responsible for any damage.
 When you encounter bug or want to improve this repo, consider opening issue or pull request. 

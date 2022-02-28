@@ -14,7 +14,6 @@
 </p>
 
 
-
 <p align="center">
 <a href="https://github.com/tylernguyen/obsidian-horizon/blob/main/LICENSE">
    <img src="https://img.shields.io/badge/License-The%20Unlicense-informational.svg"> </a>
@@ -27,12 +26,10 @@
 </p>
 
 
-
 <p align="center">
 <a href="https://github.com/isherlockliu/Thinkpad-T480-Hackintosh/">
   <img src="./Other/README Resources/T480.png" alt="Thinkpad T480" width="480"> </a>
 </p>
-
 
 
 # DISCLAIMER
@@ -50,7 +47,6 @@
 <details>
 <summary><strong>General knowledge & credits</strong></summary>
 
-
 - To install macOS follow the guides provided by [Dortania](https://dortania.github.io/getting-started/)
 - Useful tools by [CorpNewt](https://github.com/corpnewt) and [headkaze](https://github.com/headkaze/Hackintool)
 
@@ -59,7 +55,6 @@
 <details>
 <summary><strong>Hardware</strong></summary>
 <br>
-
 
 | Category  | Component                         | Note                                                         |
 | --------- | --------------------------------- | ------------------------------------------------------------ |
@@ -79,7 +74,6 @@
 <summary><strong>Main software</strong></summary>
 <br>
 
-
 | Component      | Version        |
 | -------------- | -------------- |
 | macOS Monterey | 12.2.1 (21D62) |
@@ -90,7 +84,6 @@
 <details>
 <summary><strong>Kernel extensions</strong></summary>
 <br>
-
 
 | Kext                   | Version  |
 | :--------------------- | -------- |
@@ -117,7 +110,6 @@
 <summary><strong>UEFI drivers</strong></summary>
 <br>
 
-
 |     Driver      | Version           |
 | :-------------: | ----------------- |
 |  AudioDxe.efi   | OpenCorePkg 0.7.8 |
@@ -137,11 +129,9 @@
 </details> 
 
 
-
 # Before installation
 
 <details>  
-
 
 <summary><strong>UEFI settings</strong></summary>
 <br>
@@ -173,7 +163,6 @@
 
 <details>
 
-
 <summary><strong>Own prev-lang-kbd</strong></summary>
 <br>
 
@@ -192,7 +181,6 @@ etc.
 # Post-Install
 
 <details>  
-
 
 <summary><strong>Colour banding</strong></summary>
 <br>
@@ -215,7 +203,6 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 <details>  
 
-
 <summary><strong>Generate your own SMBIOS</strong></summary>
 <br>
 
@@ -223,10 +210,10 @@ You can check your screen in gradient test [here](https://www.eizo.be/monitor-te
 
 - MacBookPro15,2
 
+
 </details>  
 
 <details>  
-
 
 <summary><strong>CPUFriend power management</strong></summary>
 <br>
@@ -237,7 +224,6 @@ Generate CPUFriendDataProvider for your machine [here](https://github.com/fewtar
 
 <details>  
 
-
 <summary><strong>VoltageShift undervolt</strong></summary>
 <br>
 
@@ -246,13 +232,11 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 ```diff
 ! If you want to use this feature, enable it in config.plist
 ```
-
 </details>  
 
 # Status
 
 <details>  
-
 
 <summary><strong>What's working ✅</strong></summary>
 
@@ -276,7 +260,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 - [x] Intel I219V Ethernet port
 
-- [x] Keyboard `Volume and brightness hotkeys. Another media keys with YogaSMC.`
+- [x] Keyboard `With keyboard switch using ThinkPad Assistant.`
 
 - [x] Microphone `With keyboard switch using ThinkPad Assistant.`
 
@@ -292,7 +276,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 - [x] TrackPoint  `Works perfectly. Just like on Windows or Linux.`
 
-- [x] USB Ports `USB Map is different for devices with Windows Hello camera.`
+- [x] USB Ports `Remap with SSDT.`
 
 - [x] Web camera
 
@@ -306,7 +290,6 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 <details>  
 
-
 <summary><strong>What's not working ⚠️</strong></summary>
 
 - [ ] Fingerprint reader  `There is finally after many years working driver for Linux (python-validity), don't expect macOS driver any time soon.`
@@ -319,10 +302,9 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 <details>  
 <summary><strong>CFG Lock | Advanced menu</strong></summary>
 <br>
+<img align="right" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="210">
 
 
-<img align="right" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="220">
-  
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
 
 <br>

@@ -124,7 +124,8 @@
 |   HfsPlus.efi   | OcBinaryData      |
 | OpenCanopy.efi  | OpenCorePkg 0.7.8 |
 | OpenRuntime.efi | OpenCorePkg 0.7.8 |
-|   </details>    |                   |
+
+</details>
 
 
 <details>

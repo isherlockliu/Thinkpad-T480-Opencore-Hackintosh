@@ -321,8 +321,8 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 <br>
 
 
-<img align="left" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="220">
-
+<img align="left" src="./Other/README Resources/CH341a.jpg" alt="CH341a.jpg" width="210">
+  
 It's possible to unlock Advanced menu thus disable CFG Lock natively in UEFI + Other Advanced menu benefits. SPI Programmer CH341a is required
 
 <br>

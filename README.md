@@ -353,4 +353,4 @@ https://www.reddit.com/r/thinkpad/comments/ffqqx5/currently_testing_skyra1n/
 - [MSzturc](https://github.com/MSzturc) for [ThinkPad Assistant](https://github.com/MSzturc/ThinkpadAssistant)
 - [OpenIntelWireless](https://github.com/OpenIntelWireless/IntelBluetoothFirmware/releases) for [IntelBluetoothFirmware](https://github.com/OpenIntelWireless/IntelBluetoothFirmware), [itlwm](https://github.com/OpenIntelWireless/itlwm) and [HeliPort](hhttps://github.com/OpenIntelWireless/HeliPort)
 - [sicreative](https://github.com/sicreative) for [VoltageShift](https://github.com/sicreative/VoltageShift)
-- [zhen-zen](https://github.com/zhen-zen) for [YogaSMC](
+- [zhen-zen](https://github.com/zhen-zen) for [YogaSMC](https://github.com/zhen-zen/YogaSMC)

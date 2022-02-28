@@ -234,7 +234,7 @@ It is possible to use VoltageShift directly from the EFI folder instead of disab
 
 <details>  
 
-<summary><strong>What's working ✅</strong></summary>
+<summary><strong>What's working     ✅</strong></summary>
 
 - [x] Battery percentage
 
